@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Loja.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Loja.WebApi.Controllers.ClientesController">
+            <summary>
+            Controller de cliente
+            </summary>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.#ctor(Loja.Manager.Interfaces.IClienteService,Microsoft.Extensions.Logging.ILogger{Loja.WebApi.Controllers.ClientesController})">
+            <summary>
+            Construtor da controller realizando a injeção ao ser instanciado
+            </summary>
+            <param name="service"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.Get">
+            <summary>
+            Retorna todos os clientes cadastrados na base de dados
+            </summary>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.Get(System.Int32)">
+            <summary>
+            Retorna um cliente
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.Post(Loja.Core.Shared.ModelViews.ClienteModelView)">
+            <summary>
+            Salva um cliente na base
+            </summary>
+            <param name="clienteModelView"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.Put(Loja.Core.Shared.ModelViews.AtualizarClienteModelView)">
+            <summary>
+            Atualiza os dados de um cliente e registra a data de atualização
+            </summary>
+            <param name="clienteModelView"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.ClientesController.Delete(System.Int32)">
+            <summary>
+            Deleta um cliente na base
+            </summary>
+            <param name="id" example="123">Id do cliente</param>
+            <remarks>Ao Excluir um cliente o mesmo será removido permanentemente da base</remarks>
+        </member>
+        <member name="T:Loja.WebApi.Controllers.MedicosController">
+            <summary>
+            Controller de cliente
+            </summary>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.#ctor(Loja.Manager.Interfaces.IMedicoService,Microsoft.Extensions.Logging.ILogger{Loja.WebApi.Controllers.MedicosController})">
+            <summary>
+            Construtor da controller realizando a injeção ao ser instanciado
+            </summary>
+            <param name="service"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.Get">
+            <summary>
+            Retorna todos os Medicos cadastrados na base de dados
+            </summary>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.Get(System.Int32)">
+            <summary>
+            Retorna um médico
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.Post(Loja.Core.Shared.ModelViews.MedicoView)">
+            <summary>
+            Salva um médico na base
+            </summary>
+            <param name="medicoView"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.Put(Loja.Core.Shared.ModelViews.AtualizarMedicoModelView)">
+            <summary>
+            Atualiza os dados de um médico
+            </summary>
+            <param name="medicoView"></param>
+        </member>
+        <member name="M:Loja.WebApi.Controllers.MedicosController.Delete(System.Int32)">
+            <summary>
+            Deleta um médico na base
+            </summary>
+            <param name="id" example="123">Id do médico</param>
+            <remarks>Ao Excluir um médico o mesmo será removido permanentemente da base</remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Loja.Core.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:Loja.Core.Shared.ModelViews.ClienteModelView">
+            <summary>
+            Objeto utilizado para inserção de novo cliente
+            </summary>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.ClienteModelView.Nome">
+            <summary>
+            Nome do Cliente
+            </summary>
+            <example>Rodrigo Oliveira</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.ClienteModelView.DataNascimento">
+            <summary>
+            Data de Nascimento
+            </summary>
+            <example>1985-10-11</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.ClienteModelView.Sexo">
+            <summary>
+            Sexo do cliente
+            </summary>
+            <example>M</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.ClienteModelView.Telefones">
+            <summary>
+            Telefone do cliente
+            </summary>
+            16999887755
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.ClienteModelView.Documento">
+            <summary>
+            Documento do cliente: CNH, CPF, RG
+            </summary>
+            <example>445556669</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.CEP">
+            <example>14800000</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.Estado">
+            <example>SP</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.Cidade">
+            <example>Araraquara</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.Logradouro">
+            <example>Av/Rua Sete</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.Numero">
+            <example>1000</example>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.EnderecoModelView.Complemento">
+            <example>Ao lado da praça</example>
+        </member>
+        <member name="T:Loja.Core.Shared.ModelViews.MedicoView">
+            <summary>
+            Objeto utilizado para inserção de novo cliente
+            </summary>
+        </member>
+        <member name="T:Loja.Core.Shared.ModelViews.NovoMedicoView">
+            <summary>
+            Objeto utilizado para inserção de novo cliente
+            </summary>
+        </member>
+        <member name="T:Loja.Core.Shared.ModelViews.TelefoneModelView">
+            <summary>
+            Objeto utilizado para inserção de novo cliente
+            </summary>
+        </member>
+        <member name="P:Loja.Core.Shared.ModelViews.TelefoneModelView.Numero">
+            <summary>
+            Telefone do cliente
+            </summary>
+            16999887755
+        </member>
+    </members>
+</doc>
